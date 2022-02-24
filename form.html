@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <main>
+
+      <header class="header">
+        <h1>Contact Us</h1>
+      </header>
+
+      <div class="form">
+        <form action="">
+          <div class="input-area">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" required />
+          </div>
+          <div class="input-area">
+            <label for="email">Email</label>
+            <input
+              required
+              type="email"
+              placeholder="Enter Your Email Address"
+            />
+          </div>
+
+          <div class="select-option">
+            <label for="services">Which Service Do You Require?</label>
+            <select required name="options">
+              <option value="choose">Choose A Service</option>
+              <option value="api">API Management</option>
+              <option value="app-d">App Design</option>
+              <option value="pent">Penetration Testing</option>
+              <option value="dev">Software Development</option>
+              <option value="ux/ui">UX/UI Design</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="select-option">
+            <label for="budget">What Is Your Budget?</label>
+            <select required name="price-range">
+              <option value="select budget">Select Budget</option>
+              <option value="£1,000-£2,500">£1,000 - £2,500</option>
+              <option value="£2,500-£5,000">£2,500 - £5,000</option>
+              <option value="£5,000-£7,500">£5,000 - £7,500</option>
+              <option value="£7,500-£10,000">£7,500 - £10,000</option>
+              <option value="£10,000-£15,000">£10,000 - £15,000</option>
+              <option value="more">More than £15,000</option>
+            </select>
+          </div>
+
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Any Extra Enquiries?"
+          ></textarea>
+        </form>
+
+      </div>
+      <div class="button">
+        <a href="/submit-msg.html">
+          <button type="button">Submit →</button>
+        </a>
+      </div>
+
+    </main>
+
+  </body>
+</html>
